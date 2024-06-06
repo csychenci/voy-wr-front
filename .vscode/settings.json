@@ -45,5 +45,9 @@
 	"editor.formatOnPaste": true,
 	"editor.formatOnSave": true,
 	"prettier.requireConfig": true,
-	"workbench.settings.applyToAllProfiles": []
+	"workbench.settings.applyToAllProfiles": [],
+	"i18n-ally.localesPaths": [
+		"public/locale",
+		"src/locale"
+	]
 }
