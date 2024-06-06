@@ -26,7 +26,7 @@
 	},
 	"vsicons.dontShowNewVersionMessage": true,
 	"[javascript]": {
-		"editor.defaultFormatter": "vscode.typescript-language-features"
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"editor.maxTokenizationLineLength": 2000000000,
 	"[json]": {

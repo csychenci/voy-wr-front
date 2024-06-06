@@ -1,38 +1,40 @@
 {
-  "env": {
-    "browser": true,
-    "es2021": true,
-    "node": true
-  },
-  "extends": [
-    "eslint:recommended",
-    "plugins:typescript-eslint/recommended",
-    "prettier",
-    "plugins:prettier/recommended",
-    "plugins:eslint-plugin-react/recommended"
-  ],
-  // extends 继承其他的 eslint 的配置
-  "overrides": [],
-  "parser": "@typescript-eslint/parser",
-  "parserOptions": {
-    "ecmaVersion": "latest",
-    // 解析什么版本的 js 代码
-    "sourceType": "module"
-  },
-  "plugins": [
-    "eslint-plugin-react",
-    "typescript-eslint",
-    "prettier"
-  ],
-  "rules": {
-    "prettier/prettier": "error",
-    "no-case-declarations": "off",
-    "no-constant-condition": "off",
-    "@typescript-eslint/ban-ts-comment": "off"
-  }
+	"env": {
+		"browser": true,
+		"es2021": true,
+		"node": true
+	},
+	"extends": [
+		"eslint:recommended",
+		"plugins:typescript-eslint/recommended",
+		"prettier",
+		"plugins:prettier/recommended",
+		"plugins:eslint-plugin-react/recommended"
+	],
+	// extends 继承其他的 eslint 的配置
+	"overrides": [],
+	"parser": "@typescript-eslint/parser",
+	"parserOptions": {
+		"ecmaVersion": "latest",
+		// 解析什么版本的 js 代码
+		"sourceType": "module",
+		"ecmaFeatures": {
+			// ES其他特性
+			"jsx": false // 如果是React项目，就需要开启jsx语法
+		}
+	},
+	"plugins": ["eslint-plugin-react", "typescript-eslint", "prettier"],
+	"rules": {
+		"prettier/prettier": "error",
+		"no-case-declarations": "off",
+		"no-constant-condition": "off",
+		"@typescript-eslint/ban-ts-comment": "off"
+	}
 }
 
 // {languageOptions: { globals: globals.browser}},
 // pluginJs.configs.recommended,
 // ...tseslint.configs.recommended,
+
+
 // pluginReactConfig,

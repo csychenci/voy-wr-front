@@ -4,7 +4,11 @@ import { BrowserRouter } from "react-router-dom";
 import { I18nextProvider } from "react-i18next";
 
 const App: React.FC<{}> = (props) => {
-	return <BrowserRouter></BrowserRouter>;
+	return (
+		<BrowserRouter>
+			<div>voy-wr</div>
+		</BrowserRouter>
+	);
 };
 
 export default App;
