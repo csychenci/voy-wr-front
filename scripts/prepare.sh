@@ -7,5 +7,5 @@ echo "Current nvm dir: ${CURRENT_NVM_DIR}, load nvm..."
 # else
 #   nvm use 16.15.1
 # fi
-nvm use 18.19.1
+nvm use 21.1.0
 npm install

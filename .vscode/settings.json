@@ -1,0 +1,49 @@
+{
+	"workbench.colorTheme": "One Dark Pro Darker",
+	"redhat.telemetry.enabled": true,
+	"editor.tabSize": 2,
+	"security.workspace.trust.untrustedFiles": "open",
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[less]": {
+		"editor.defaultFormatter": "vscode.css-language-features"
+	},
+	"[vue]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[scss]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"[markdown]": {
+		"editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+	},
+	"vsicons.dontShowNewVersionMessage": true,
+	"[javascript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"editor.maxTokenizationLineLength": 2000000000,
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[rust]": {},
+	"rust-analyzer.hover.memoryLayout.size": "both",
+	"Lingma.LocalStoragePath": "/Users/wuzhanglun/.lingma",
+	"html.hover.references": false,
+	"css.hover.references": false,
+	"less.hover.references": false,
+	"scss.hover.references": false,
+	"editor.codeLens": false,
+	"window.zoomLevel": 1,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnPaste": true,
+	"editor.formatOnSave": true,
+	"prettier.requireConfig": true,
+	"workbench.settings.applyToAllProfiles": []
+}
