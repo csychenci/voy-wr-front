@@ -103,7 +103,10 @@ module.exports = {
 							}
 						}
 					},
-					"less-loader"
+					{
+						loader: "less-loader",
+						options: { relativeUrls: false, sourceMap: true }
+					}
 				]
 			},
 			{
