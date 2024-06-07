@@ -1,1 +1,3 @@
-export type MapProps = {};
+export type MapProps = {
+	className?: string;
+};

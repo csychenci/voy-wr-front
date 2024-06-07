@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npx husky install",
     "start": "webpack serve --mode development",
     "build:analy:umd": "webpack --mode production --env target=umd mode=analy",
     "build:analy:esm": "webpack --mode production --env target=esm mode=analy",
