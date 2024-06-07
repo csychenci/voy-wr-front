@@ -12,7 +12,7 @@ module.exports = merge(webpackCommon, {
 		host: "0.0.0.0",
 		compress: false, // gzip压缩,开发环境不开启,提升热更新速度
 		historyApiFallback: true, // 解决history路由404问题
-		port: 7878,
+		port: "auto",
 		client: {
 			progress: true,
 			logging: "info",

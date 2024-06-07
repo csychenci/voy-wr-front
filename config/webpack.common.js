@@ -108,10 +108,7 @@ module.exports = {
 				use: [
 					isDev ? "style-loader" : MiniCssExtractPlugin.loader,
 					{
-						loader: "css-loader",
-						options: {
-							modules: true
-						}
+						loader: "css-loader"
 					},
 					{
 						loader: "postcss-loader",
