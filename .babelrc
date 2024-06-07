@@ -7,7 +7,7 @@
 				"version": "legacy"
 			}
 		],
-		"@babel/proposal-class-properties",
+		["@babel/plugin-transform-class-properties"],
 		"@babel/plugin-transform-modules-commonjs"
 	]
 }
