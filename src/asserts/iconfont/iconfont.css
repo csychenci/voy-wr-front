@@ -1,0 +1,226 @@
+@font-face {
+	font-family: "font_family"; /* Project id 4454671 */
+	src: url("iconfont.eot?t=1718258786567"); /* IE9 */
+	src:
+		url("iconfont.eot?t=1718258786567#iefix") format("embedded-opentype"),
+		/* IE6-IE8 */ url("iconfont.woff2?t=1718258786567") format("woff2"),
+		url("iconfont.woff?t=1718258786567") format("woff"),
+		url("iconfont.ttf?t=1718258786567") format("truetype"),
+		url("iconfont.svg?t=1718258786567#font_family") format("svg");
+}
+
+.font_family {
+	font-family: "font_family" !important;
+	font-size: 16px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.fleet-plus:before {
+	content: "\e655";
+}
+
+.fleet-minus:before {
+	content: "\e656";
+}
+
+.fleet-history:before {
+	content: "\e652";
+}
+
+.fleet-shortcut:before {
+	content: "\e650";
+}
+
+.fleet-message:before {
+	content: "\e64f";
+}
+
+.fleet-more:before {
+	content: "\e651";
+}
+
+.fleet-bell:before {
+	content: "\e7c4";
+}
+
+.fleet-a-slideup:before {
+	content: "\e64e";
+}
+
+.fleet-check:before {
+	content: "\e64b";
+}
+
+.fleet-routeing:before {
+	content: "\e64c";
+}
+
+.fleet-invoices:before {
+	content: "\e64d";
+}
+
+.fleet-send:before {
+	content: "\e649";
+}
+
+.fleet-comparison:before {
+	content: "\e64a";
+}
+
+.fleet-update1:before {
+	content: "\e648";
+}
+
+.fleet-uselaber:before {
+	content: "\e647";
+}
+
+.fleet-deploy:before {
+	content: "\e646";
+}
+
+.fleet-spread-out:before {
+	content: "\e645";
+}
+
+.fleet-warn:before {
+	content: "\e644";
+}
+
+.fleet-update:before {
+	content: "\e642";
+}
+
+.fleet-setting:before {
+	content: "\e643";
+}
+
+.fleet-avatar:before {
+	content: "\e641";
+}
+
+.fleet-hide:before {
+	content: "\e63e";
+}
+
+.fleet-show:before {
+	content: "\e63f";
+}
+
+.fleet-save:before {
+	content: "\e640";
+}
+
+.fleet-add-square:before {
+	content: "\e63b";
+}
+
+.fleet-copy:before {
+	content: "\e63c";
+}
+
+.fleet-arrow-right:before {
+	content: "\e63d";
+}
+
+.fleet-relational-graph:before {
+	content: "\e864";
+}
+
+.fleet-user:before {
+	content: "\e61c";
+}
+
+.fleet-peoples:before {
+	content: "\e6d4";
+}
+
+.fleet-Calender:before {
+	content: "\e8b4";
+}
+
+.fleet-email:before {
+	content: "\e624";
+}
+
+.fleet-phone:before {
+	content: "\e603";
+}
+
+.fleet-particular:before {
+	content: "\e639";
+}
+
+.fleet-chart:before {
+	content: "\e63a";
+}
+
+.fleet-position:before {
+	content: "\e638";
+}
+
+.fleet-excel:before {
+	content: "\e637";
+}
+
+.fleet-collect:before {
+	content: "\e635";
+}
+
+.fleet-collected:before {
+	content: "\e636";
+}
+
+.fleet-back:before {
+	content: "\e634";
+}
+
+.fleet-delete:before {
+	content: "\e633";
+}
+
+.fleet-download:before {
+	content: "\e632";
+}
+
+.fleet-port:before {
+	content: "\e630";
+}
+
+.fleet-arrow:before {
+	content: "\e631";
+}
+
+.fleet-add:before {
+	content: "\e62f";
+}
+
+.fleet-close:before {
+	content: "\e62e";
+}
+
+.fleet-filter:before {
+	content: "\e62d";
+}
+
+.fleet-database:before {
+	content: "\e628";
+}
+
+.fleet-monitoring:before {
+	content: "\e629";
+}
+
+.fleet-perf-report:before {
+	content: "\e62a";
+}
+
+.fleet-estimation:before {
+	content: "\e62b";
+}
+
+.fleet-a-voyageManagement:before {
+	content: "\e62c";
+}

@@ -1,0 +1,103 @@
+.fleet-prompt {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  z-index: 99;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0px;
+  transition: visibility 425ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+
+  :global {
+    .prompt-mask {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      z-index: 1;
+      backdrop-filter: brightness(70%) blur(14px);
+      opacity: 0;
+      transition: opacity 335ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    }
+
+    .prompt-container {
+      position: absolute;
+      z-index: 2;
+      transform: none;
+      transition: transform 335ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+      // width: 100%;
+      // height: 100%;
+      // display: flex;
+      // justify-content: center;
+      // align-items: center;
+
+      .prompt-header--container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .header-title {
+          color: var(--color-text-body-1, #151515);
+          font-size: 20px;
+          font-weight: 590;
+          line-height: 28px;
+          gap: 10px;
+          display: flex;
+          align-items: center;
+
+          &::before {
+            display: inline-block;
+            content: "";
+            border-radius: 38px;
+            background: #355691;
+            width: 6px;
+            height: 16px;
+          }
+        }
+
+        .header-close {
+          font-size: 16px;
+          cursor: pointer;
+        }
+      }
+
+      .prompt-footer--container {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 8px;
+      }
+    }
+
+    .prompt-close {
+      position: absolute;
+      top: 16px;
+      right: 24px;
+      z-index: 3;
+      cursor: pointer;
+    }
+  }
+}
+
+.fleet-prompt--drawer {
+  justify-content: flex-end;
+  align-items: flex-start;
+
+  :global {
+    .prompt-mask {
+      backdrop-filter: unset;
+      background: rgba(0, 0, 0, 0.40);
+    }
+
+    .prompt-container {
+      height: 100%;
+      transform: translateX(100%);
+    }
+  }
+}
