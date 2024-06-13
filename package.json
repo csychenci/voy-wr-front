@@ -78,6 +78,7 @@
     "zip-webpack-plugin": "^4.0.1"
   },
   "dependencies": {
+    "@floating-ui/react": "^0.26.16",
     "@reduxjs/toolkit": "^2.2.5",
     "classnames": "^2.5.1",
     "i18next": "^23.11.5",
