@@ -20,7 +20,7 @@
 		"sourceType": "module",
 		"ecmaFeatures": {
 			// ES其他特性
-			"jsx": false // 如果是React项目，就需要开启jsx语法
+			"jsx": true // 如果是React项目，就需要开启jsx语法
 		}
 	},
 	"plugins": ["eslint-plugin-react", "typescript-eslint", "prettier"],
@@ -31,10 +31,3 @@
 		"@typescript-eslint/ban-ts-comment": "off"
 	}
 }
-
-// {languageOptions: { globals: globals.browser}},
-// pluginJs.configs.recommended,
-// ...tseslint.configs.recommended,
-
-
-// pluginReactConfig,

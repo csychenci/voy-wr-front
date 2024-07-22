@@ -6,3 +6,5 @@ export { FleetVerifyInput, default as FleetInput } from "./Input";
 export { default as FormItem } from "./FormItem";
 export { default as Loading } from "./Loading";
 export { default as Dialog } from "./Dialog";
+export { default as Terminal } from "./Terminal";
+export { default as Editor } from "./Editor";

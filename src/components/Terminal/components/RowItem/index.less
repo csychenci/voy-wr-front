@@ -1,0 +1,36 @@
+.terminal-rowItem {
+  width: 100%;
+  height: fit-content;
+
+  .rowItem-loginUser {
+    align-items: center;
+    gap: 6px;
+    display: inline-block;
+
+    &>* {
+      font-size: 14px;
+      line-height: 21px;
+      white-space: nowrap;
+      margin-right: 6px;
+      display: inline;
+    }
+
+    &>:first-child {
+      color: rgb(250, 204, 21);
+    }
+
+    &>:nth-child(2) {
+      color: rgb(74, 222, 128);
+    }
+
+    &>:nth-child(3) {
+      color: rgb(96, 165, 250);
+    }
+  }
+
+  .rowItem-command {
+    display: inline;
+    word-break: break-all;
+    color: rgb(192, 132, 252);
+  }
+}
